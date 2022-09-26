@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box-img{
+    width: 500px;
+    margin: 100px auto;
+    position: relative;
+}
+.img img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+.owl-nav button{
+font-size: 110px!important;
+position: absolute;
+transform: translate(-50%, 0);
+top: 50%;
+}
+.owl-prev{
+    left: 0;
+}
+.owl-next{
+    right: 0;
+}
